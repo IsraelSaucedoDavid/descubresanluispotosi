@@ -1,0 +1,14 @@
+.foto_perfil,
+.foto_portada {
+    height: 80%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.rango_precios,
+.rango_precios_hoteles,
+.estrellas,
+.tipo_comida,
+.ser_dom {
+    display: none;
+}

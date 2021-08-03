@@ -1,0 +1,562 @@
+/*********************************** SECCION DE fuentes **********************************************/
+
+@font-face {
+    font-family: fontana-nd-ee-osf;
+    src: url("fonts/fontana-nd-ee-osf.otf");
+}
+
+@font-face {
+    font-family: TodaySHOP-Ultra;
+    src: url("fonts/TodaySHOP-Ultra.otf");
+}
+
+/****************************************NAV***********************************/
+
+.navbar {
+    box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 2px rgba(0, 0, 0, 0.22);
+}
+
+.logo1 {
+    height: 50px;
+    width: auto;
+}
+
+.logo2 {
+    height: 30px;
+    width: auto;
+}
+
+.btnpaquetes {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf;
+    border-bottom: solid #aa1e82 5px;
+}
+
+.btnpromotores {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf !important;
+    border-bottom: solid #f17e06 5px;
+}
+
+.btnlogin {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf !important;
+    border-bottom: solid #48b037 5px;
+}
+
+/******************************** logo ayuda *********************************************/
+
+.logo-ayuda {
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    background-color: #ffdc00;
+    border-radius: 50%;
+    box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+    -webkit-box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+}
+
+.logo-ayuda img {
+    height: 80px;
+}
+
+/************************************* logo regresar ****************************************************/
+
+.logo-regresar {
+    position: fixed;
+    z-index: 1;
+    top: 92%;
+    left: 2%;
+    border-radius: 50%;
+    background-color: #f17e06;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.25),
+        -1px -1px 20px 1px rgba(0, 0, 0, 0.22);
+}
+
+.logo-regresar img {
+    height: 50px;
+}
+
+/***********************************Titulos ****************************/
+
+#titulo {
+    background-color: black;
+    height: 8rem;
+}
+
+#titulo h1 {
+    color: white;
+    font-family: TodaySHOP-Ultra;
+    font-size: 60px;
+    margin-left: 60px;
+}
+#titulo h3 {
+    color: white;
+    font-family: fontana-nd-ee-osf;
+    font-size: 45px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+#titulo hr {
+    height: 5px;
+    border: none;
+    margin-right: 60px;
+}
+
+/******************************titulo del municipio **************************/
+
+.tituloMuni {
+    font-family: fontana-nd-ee-osf;
+    font-size: 50px;
+    color: #f17e06;
+    text-align: center;
+}
+
+/**************************************************************************************************************/
+
+/*Filtros*/
+
+#filtro {
+    height: auto;
+    width: auto;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.1),
+        -5px -5px 30px 7px rgba(0, 0, 0, 0.11);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#filtro .input-group-prepend {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#filtro #clasificaciones {
+    margin-left: 180px;
+}
+
+#filtro #clasificaciones select {
+    margin-left: 50px;
+}
+
+#filtro .input-group-prepend span {
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    right: 5px;
+    font-weight: 100;
+    width: 22%;
+}
+
+#filtro .clasificaciones select {
+    margin-left: 8%;
+    text-transform: uppercase;
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#filtro .lugares select {
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#filtro .precios select {
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* boton buscar*/
+
+#buscar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40%;
+    height: 45px;
+    width: 32%;
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    background-color: #f17e06;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#buscar img {
+    width: 30px;
+    height: 30px;
+}
+
+#precios {
+    display: none;
+}
+
+#lugares {
+    display: none;
+}
+/***************************************wrap ******************************************
+.wrap {
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+}
+
+.wrap > h1 {
+    color: #494b4d;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.wrap > h1:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #c7c7c7;
+    margin: 20px 0;
+}
+
+.store-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category_list {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+
+.category_list .category_item {
+    display: block;
+    width: 90%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background: #e84c3d;
+
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.category_list .ct_item-active {
+    background: #2d3e50;
+}*/
+
+/* PRODUCTOS ============
+
+.products-list {
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-list .product-item {
+    width: 22%;
+    margin-left: 3%;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+
+    transition: all 0.4s;
+}
+
+.products-list .product-item img {
+    width: 100%;
+}
+
+.products-list .product-item a {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background: #2d3e50;
+
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}**/
+
+/******************************** tarjeta de de la establecimiento *******************************************/
+
+.profile-area {
+    padding: 80px 0;
+}
+
+.card {
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    height: 395px;
+    border-radius: 15px;
+}
+
+.img1 img {
+    width: 255px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img2 img {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -95px;
+}
+
+.card:hover .img2 img {
+    border-color: #00b6ec;
+    transition: 0.7s;
+}
+
+.main-text {
+    padding: 25px 0;
+    text-align: center;
+    font-family: fontana-nd-ee-osf;
+    text-transform: capitalize;
+}
+
+.main-text h2 {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: black;
+    font-family: fontana-nd-ee-osf;
+}
+
+.main-text p {
+    font-size: 17px;
+    padding: 0 36px;
+    color: black;
+    font-family: fontana-nd-ee-osf;
+    text-transform: capitalize;
+}
+
+/******************************************Tarjetas****************
+
+.card {
+    margin-top: 30px;
+    width: 20rem;
+    height: 20rem;
+    transition: 0.4s;
+}
+
+.cards-list {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .card_image {
+    width: inherit;
+    height: inherit;
+    margin: 0px;
+    box-shadow: 6px 6px 15px 6px rgba(0, 0, 0, 0.22),
+        -6px -6px 15px 6px rgba(0, 0, 0, 0.25);
+}
+
+.card .card_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.card .card_title {
+    text-align: center;
+    font-family: TodaySHOP-Ultra;
+    font-size: 25px;
+    margin-top: -150px;
+    text-transform: capitalize;
+}
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.1),
+        -5px -5px 30px 7px rgba(0, 0, 0, 0.11);
+}********/
+
+/***********************************footer****************************************/
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(51, 50, 50);
+    position: absolute;
+    z-index: -1;
+}
+
+#redes {
+    background-color: #48b037;
+    text-align: center;
+    height: 70px;
+    margin-left: 0%;
+}
+
+#redes img {
+    width: 30px;
+    color: white;
+}
+
+table {
+    position: absolute;
+    margin-bottom: 50%;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    font-family: fontana-nd-ee-osf;
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+ul i {
+    color: #48b037;
+}
+
+/******************************************************************************************/
+/*Responsive*/
+
+@media screen and (max-width: 640px) {
+    /*******************Cambio de logo*********************/
+    .logo1 {
+        display: none;
+    }
+
+    /*********************** titulo principal************************/
+    #titulo h1 {
+        font-size: 25px;
+        margin-left: 0px;
+    }
+    #titulo h3 {
+        font-size: 25px;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    #titulo hr {
+        height: 5px;
+        border: none;
+        margin-right: 20px;
+    }
+
+    /********************************* boton buscar en los filtros ********************************/
+
+    #filtro {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #filtro #clasificaciones {
+        margin-left: 0%;
+    }
+
+    #filtro #clasificaciones select {
+        margin-left: 28%;
+    }
+
+    #filtro .input-group-prepend span {
+        position: absolute;
+        left: 30px;
+    }
+
+    #filtro .clasificaciones select {
+        text-transform: capitalize;
+        margin-left: 50px;
+        width: 190px;
+        z-index: 2;
+    }
+
+    #filtro .lugares select {
+        text-transform: capitalize;
+        margin-left: 33%;
+        width: 191px;
+    }
+
+    #filtro .precios select {
+        text-transform: capitalize;
+        margin-left: 33%;
+        width: 191px;
+    }
+
+    #buscar {
+        width: 37%;
+    }
+
+    /********* Imagenes de establecimiento ***********/
+    .img1 img {
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    /************************************* Tarjetas *********************
+
+    .card {
+        left: 23px;
+        margin-top: 30px;
+        width: 18rem;
+        height: 18rem;
+        transition: 0.4s;
+    }
+
+    .card .card_title {
+        text-align: center;
+        font-family: TodaySHOP-Ultra;
+        font-size: 25px;
+        margin-top: -165px;
+        height: 40px;
+        text-transform: capitalize;
+    }********/
+
+    /****************Footer************************/
+    #footer {
+        width: 100%;
+        height: 50%;
+        background-color: rgb(51, 50, 50);
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 730px) {
+    .logo2 {
+        display: none;
+    }
+}

@@ -1,0 +1,50 @@
+/****************************************NAV***********************************/
+
+.navbar {
+    box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 2px rgba(0, 0, 0, 0.22);
+}
+
+.logo1 {
+    height: 50px;
+    width: auto;
+}
+
+.logo2 {
+    height: 30px;
+    width: auto;
+}
+
+.btnpaquetes {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf;
+    border-bottom: solid #aa1e82 5px;
+}
+
+.btnpromotores {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf !important;
+    border-bottom: solid #f17e06 5px;
+}
+
+.btnlogin {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf !important;
+    border-bottom: solid #48b037 5px;
+}
+
+@media screen and (max-width: 640px) {
+    /*******************Cambio de logo*********************/
+    .logo1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 730px) {
+    .logo2 {
+        display: none;
+    }
+}

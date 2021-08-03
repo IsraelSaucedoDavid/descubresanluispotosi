@@ -1,0 +1,533 @@
+/******Fuentes************/
+@font-face {
+    font-family: fontana-nd-ee-osf;
+    src: url("fonts/fontana-nd-ee-osf.otf");
+}
+
+@font-face {
+    font-family: TodaySHOP-Ultra;
+    src: url("fonts/TodaySHOP-Ultra.otf");
+}
+
+/**********************************Linea****************************************/
+
+.linea {
+    border-top: 7px solid yellow;
+    max-width: 400px;
+    padding: 0;
+    margin-left: 38%;
+}
+
+.linea2 {
+    border-top: 7px solid yellow;
+    max-width: 400px;
+    margin-left: 31%;
+}
+
+.linea3 {
+    border-top: 7px solid yellow;
+    max-width: 400px;
+    padding: 0;
+    margin-left: 0;
+}
+
+.linea4 {
+    border-top: 7px solid yellow;
+    max-width: 400px;
+    padding: 0;
+    margin-left: 0;
+}
+
+/******************************** logo ayuda *********************************************/
+
+.logo-ayuda {
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    background-color: #ffdc00;
+    border-radius: 50%;
+    box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+    -webkit-box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+}
+
+.logo-ayuda img {
+    height: 80px;
+}
+
+/************************************* logo regresar ****************************************************/
+
+.logo-regresar {
+    position: fixed;
+    z-index: 8;
+    top: 87%;
+    left: 2%;
+    border-radius: 50%;
+    background-color: #f17e06;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.25),
+        -1px -1px 20px 1px rgba(0, 0, 0, 0.22);
+}
+
+.logo-regresar img {
+    height: 50px;
+}
+
+/******************************** Carrusel *******************************************/
+
+#carouselExampleIndicators {
+    box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 2px rgba(0, 0, 0, 0.22);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#imggeneral {
+    height: 27rem;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/**************************************************************************************************************/
+
+/*Filtros*/
+
+#filtro {
+    height: auto;
+    width: auto;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.1),
+        -5px -5px 30px 7px rgba(0, 0, 0, 0.11);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#filtro .input-group-prepend {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#filtro #clasificaciones {
+    margin-left: 180px;
+}
+
+#filtro #clasificaciones select {
+    margin-left: 50px;
+}
+
+#filtro .input-group-prepend span {
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    right: 5px;
+    font-weight: 100;
+    width: 22%;
+}
+
+#filtro .clasificaciones select {
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#filtro .lugares select {
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#filtro .precios select {
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* boton buscar*/
+
+#buscar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40%;
+    height: 45px;
+    width: 32%;
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    background-color: #f17e06;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#buscar img {
+    width: 30px;
+    height: 30px;
+}
+
+#precios {
+    display: none;
+}
+
+#lugares {
+    display: none;
+}
+
+/******************************** Content *******************************************/
+
+#titulo {
+    background-color: black;
+    height: 8rem;
+}
+
+#titulo h1 {
+    color: white;
+    font-family: TodaySHOP-Ultra;
+    font-size: 60px;
+    text-align: left;
+    margin-left: 50px;
+    text-transform: capitalize;
+}
+
+#titulo h3 {
+    color: white;
+    font-family: fontana-nd-ee-osf;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+#titulo hr {
+    margin-right: 50px;
+}
+
+.titulo1 {
+    text-align: center;
+    color: #f17e06;
+    font-size: 40px;
+    font-family: TodaySHOP-Ultra;
+    text-transform: capitalize;
+}
+
+.des1 {
+    text-align: justify;
+    font-size: 25px;
+    font-family: fontana-nd-ee-osf;
+}
+
+.des1::first-letter {
+    text-transform: uppercase;
+}
+
+.establecimientos {
+    margin-left: 60%;
+}
+
+.establecimientos h1 {
+    margin-left: 100px;
+}
+
+/******************************** tarjeta de de la establecimiento *******************************************/
+
+.profile-area {
+    padding: 80px 0;
+}
+
+.card {
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    height: 395px;
+    border-radius: 15px;
+}
+
+.img1 img {
+    width: 255px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img2 img {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -95px;
+}
+
+.card:hover .img2 img {
+    border-color: #00b6ec;
+    transition: 0.7s;
+}
+
+.main-text {
+    padding: 25px 0;
+    text-align: center;
+    font-family: fontana-nd-ee-osf;
+    text-transform: capitalize;
+}
+
+.main-text h2 {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: black;
+    font-family: fontana-nd-ee-osf;
+}
+
+.main-text p {
+    font-size: 17px;
+    padding: 0 36px;
+    color: black;
+    font-family: fontana-nd-ee-osf;
+    text-transform: capitalize;
+}
+
+/***********************************footer****************************************/
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(51, 50, 50);
+    position: absolute;
+    z-index: -1;
+}
+
+#redes {
+    background-color: #48b037;
+    text-align: center;
+    height: 70px;
+    margin-left: 0%;
+}
+
+#redes img {
+    width: 30px;
+    color: white;
+}
+
+table {
+    position: absolute;
+    margin-bottom: 50%;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    font-family: fontana-nd-ee-osf;
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+ul i {
+    color: #48b037;
+}
+
+/******************************** ubicacion *******************************************/
+
+.titulo2 {
+    color: #000000;
+    font-family: fontana-nd-ee-osf;
+    font-size: 60px;
+}
+
+iframe {
+    box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, 0.25),
+        -3px -3px 25px 5px rgba(0, 0, 0, 0.22);
+}
+/******************************** RESPONSIVE *******************************************/
+
+@media (max-width: 640px) {
+    /*******************Cambio de logo*********************/
+    .logo1 {
+        display: none;
+    }
+
+    /*********************** titulo principal************************/
+    #titulo h1 {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    #titulo h3 {
+        font-size: 25px;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    #titulo hr {
+        height: 5px;
+        border: none;
+        margin-right: 20px;
+    }
+
+    /*imagen principal*/
+    #imggeneral {
+        height: 15rem;
+        object-fit: cover;
+    }
+
+    #titulo2 {
+        text-align: right;
+        font-family: fontana-nd-ee-osf;
+        font-size: 30px;
+    }
+
+    /********************linea**********************/
+    .linea {
+        border-top: 7px solid yellow;
+        width: 150px;
+        padding: 0;
+        margin-left: -12%;
+    }
+
+    .linea2 {
+        border-top: 7px solid yellow;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .linea3 {
+        border-top: 7px solid yellow;
+        width: 220%;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .linea4 {
+        border-top: 7px solid yellow;
+        max-width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    /************buscador***********/
+    #buscar {
+        margin-left: 70%;
+        margin-bottom: 10px;
+    }
+
+    /********* Imagenes de establecimiento ***********/
+    .img1 img {
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    /*************** Filtros***********************/
+    .filtro {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .filtros select {
+        margin-left: 0px;
+    }
+
+    #filtro .input-group-prepend span {
+        margin-left: -80%;
+        margin-right: 15px;
+        font-size: 17px;
+    }
+
+    #filtro #clasificaciones {
+        margin-left: 0%;
+    }
+
+    #filtro .clasificaciones select {
+        font-size: 17px;
+        width: 220px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #filtro .lugares select {
+        font-size: 17px;
+        width: 250px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #filtro .precios select {
+        font-size: 17px;
+        width: 250px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    /********* buscar ***********/
+    #buscar {
+        margin-left: 34%;
+        width: 40%;
+        font-size: 20px;
+        background-color: #f17e06;
+        color: white;
+        font-family: fontana-nd-ee-osf;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #buscar img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /****************Footer************************/
+    #footer {
+        width: 100%;
+        height: 50%;
+        background-color: rgb(51, 50, 50);
+        position: absolute;
+    }
+
+    /***********************titulo de establecimientos ********************/
+    .establecimientos {
+        margin-left: 0%;
+    }
+
+    .establecimientos h1 {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 730px) {
+    .logo-regresar {
+        display: none;
+    }
+
+    .logo2 {
+        display: none;
+    }
+}

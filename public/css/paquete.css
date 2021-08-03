@@ -1,0 +1,263 @@
+/*********************************** SECCION DE fuentes **********************************************/
+
+@font-face {
+    font-family: fontana-nd-ee-osf;
+    src: url("fonts/fontana-nd-ee-osf.otf");
+}
+
+@font-face {
+    font-family: TodaySHOP-Ultra;
+    src: url("fonts/TodaySHOP-Ultra.otf");
+}
+
+/****************************************NAV***********************************/
+
+.navbar {
+    box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 2px rgba(0, 0, 0, 0.22);
+}
+
+.logo1 {
+    height: 50px;
+    width: auto;
+}
+
+.logo2 {
+    height: 30px;
+    width: auto;
+}
+
+.btnpaquetes {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf;
+    border-bottom: solid #aa1e82 5px;
+}
+
+.btnpromotores {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf !important;
+    border-bottom: solid #f17e06 5px;
+}
+
+.btnlogin {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf !important;
+    border-bottom: solid #48b037 5px;
+}
+
+/******************************** logo ayuda *********************************************/
+
+.logo-ayuda {
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    background-color: #ffdc00;
+    border-radius: 50%;
+    box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+    -webkit-box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+}
+
+.logo-ayuda img {
+    height: 80px;
+}
+
+/************************************* logo regresar ****************************************************/
+
+.logo-regresar {
+    position: fixed;
+    z-index: 1;
+    top: 92%;
+    left: 2%;
+    border-radius: 50%;
+    background-color: #f17e06;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.25),
+        -1px -1px 20px 1px rgba(0, 0, 0, 0.22);
+}
+
+.logo-regresar img {
+    height: 50px;
+}
+
+/**********************************Linea****************************************/
+
+.linea {
+    border-top: 7px solid yellow;
+    max-width: 400px;
+    padding: 0;
+    margin-left: 80%;
+}
+
+/**********************************Linea 2****************************************/
+
+.linea2 {
+    border-top: 7px solid yellow;
+    max-width: 300px;
+    padding: 0;
+}
+
+/*******************************************************************************************************/
+#titulo {
+    background-color: black;
+    height: 10rem;
+}
+
+#titulo h1 {
+    color: white;
+    font-family: TodaySHOP-Ultra;
+    font-size: 35px;
+    text-align: center;
+}
+
+#titulo h3 {
+    color: white;
+    font-family: TodaySHOP-Ultra;
+    font-size: 40px;
+    text-align: right;
+}
+
+.card-paquetes {
+    height: 28rem;
+}
+
+#img img {
+    height: 30rem;
+    object-fit: cover;
+}
+
+#contenido h1 {
+    font-family: TodaySHOP-Ultra;
+}
+
+.des {
+    font-size: 23px;
+    font-family: fontana-nd-ee-osf;
+    text-align: justify;
+}
+
+li {
+    text-align: left;
+}
+
+#contenido .ubicacion {
+    font-family: fontana-nd-ee-osf;
+
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+}
+
+#contenido .descripcion {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+#incluye {
+    color: black;
+}
+
+#incluye li {
+    font-size: 23px;
+    color: black;
+    font-family: fontana-nd-ee-osf;
+}
+
+#ubicacion {
+    text-align: right;
+    font-family: fontana-nd-ee-osf;
+    font-size: 30px;
+}
+
+.mapa {
+    height: 35rem;
+    width: 100%;
+}
+
+/***********************************footer****************************************/
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(51, 50, 50);
+    position: absolute;
+    z-index: -1;
+}
+
+#redes {
+    background-color: #48b037;
+    text-align: center;
+    height: 70px;
+    margin-left: 0%;
+}
+
+#redes img {
+    width: 30px;
+    color: white;
+}
+
+table {
+    position: absolute;
+    margin-bottom: 50%;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    font-family: fontana-nd-ee-osf;
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+ul i {
+    color: #48b037;
+}
+
+/*************************************************************************************************************/
+
+/*responsive*/
+
+@media screen and (max-width: 640px) {
+    /*******************Cambio de logo*********************/
+    .logo1 {
+        display: none;
+    }
+
+    /****************************Titulo*******************/
+
+    #titulo h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #titulo h3 {
+        font-size: 22px;
+        text-align: right;
+    }
+
+    /****************Footer************************/
+    #footer {
+        width: 100%;
+        height: 50%;
+        background-color: rgb(51, 50, 50);
+        position: absolute;
+    }
+
+    /********************linea***************/
+    .linea {
+        margin-left: 0%;
+    }
+
+    /***********************mapa************************/
+    .mapa {
+        height: 20rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 730px) {
+    .logo2 {
+        display: none;
+    }
+}

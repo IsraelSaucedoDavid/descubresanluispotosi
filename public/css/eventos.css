@@ -1,0 +1,298 @@
+/*SECCION DE EVENTOS*/
+@font-face {
+    font-family: fontana-nd-ee-osf;
+    src: url("fonts/fontana-nd-ee-osf.otf");
+}
+
+@font-face {
+    font-family: TodaySHOP-Ultra;
+    src: url("fonts/TodaySHOP-Ultra.otf");
+}
+
+/****************************************NAV***********************************/
+
+.navbar {
+    box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 2px rgba(0, 0, 0, 0.22);
+}
+
+.logo1 {
+    height: 50px;
+    width: auto;
+}
+
+.logo2 {
+    height: 30px;
+    width: auto;
+}
+
+.btnpaquetes {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf;
+    border-bottom: solid #aa1e82 5px;
+}
+
+.btnpromotores {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf !important;
+    border-bottom: solid #f17e06 5px;
+}
+
+.btnlogin {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: fontana-nd-ee-osf !important;
+    border-bottom: solid #48b037 5px;
+}
+
+/******************************** logo ayuda *********************************************/
+
+.logo-ayuda {
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    background-color: #ffdc00;
+    border-radius: 50%;
+    box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+    -webkit-box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 3px -1px 23px -2px rgba(0, 0, 0, 0.89);
+}
+
+.logo-ayuda img {
+    height: 80px;
+}
+
+/************************************* logo regresar ****************************************************/
+
+.logo-regresar {
+    position: fixed;
+    z-index: 1;
+    top: 92%;
+    left: 2%;
+    border-radius: 50%;
+    background-color: #f17e06;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.25),
+        -1px -1px 20px 1px rgba(0, 0, 0, 0.22);
+}
+
+.logo-regresar img {
+    height: 50px;
+}
+
+/***********************************Titulos ****************************/
+
+#titulo {
+    background-color: black;
+    height: 8rem;
+}
+
+#titulo h1 {
+    color: white;
+    font-family: TodaySHOP-Ultra;
+    font-size: 60px;
+    margin-left: 60px;
+}
+#titulo h3 {
+    color: white;
+    font-family: fontana-nd-ee-osf;
+    font-size: 45px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+#titulo hr {
+    height: 5px;
+    border: none;
+    margin-right: 60px;
+}
+
+.linea {
+    border-top: 7px solid yellow;
+    height: 5px;
+    max-width: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+/******************************titulo del municipio **************************/
+
+.tituloMuni {
+    font-family: fontana-nd-ee-osf;
+    font-size: 50px;
+    color: #f17e06;
+    text-align: center;
+}
+
+/*****************************************************************************************************************/
+
+/*SECCION DE EVENTOS*/
+.info img {
+    height: 350px;
+    width: 50px;
+    object-fit: cover;
+    box-shadow: -1px 2px 83px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 2px 83px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 83px -7px rgba(0, 0, 0, 0.75);
+}
+
+.info h1 {
+    font-family: TodaySHOP-Ultra;
+    font-size: 35px;
+    text-align: left;
+}
+
+.info p {
+    font-family: fontana-nd-ee-osf;
+    font-size: 25px;
+    text-align: center;
+}
+
+/****************************************Filtro**********************************/
+
+#filtro {
+    height: 6rem;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.1),
+        -5px -5px 30px 7px rgba(0, 0, 0, 0.11);
+    border-radius: 50px;
+}
+
+#filtro .row {
+    margin-left: 1%;
+}
+
+#filtro span {
+    font-family: fontana-nd-ee-osf;
+    font-size: 23px;
+    right: 5px;
+    font-weight: 100;
+}
+
+#filtro select {
+    font-family: fontana-nd-ee-osf;
+    font-size: 20px;
+    height: 40px;
+    left: 6px;
+    right: 8px;
+    margin-left: 5%;
+    text-transform: uppercase;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-right: -100px;
+}
+
+#filtro #buscar {
+    font-size: 20px;
+    background-color: #f17e06;
+    color: white;
+    font-family: fontana-nd-ee-osf;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#filtro #buscar img {
+    width: 30px;
+    height: 30px;
+}
+
+/***********************************footer****************************************/
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(51, 50, 50);
+    position: absolute;
+    z-index: -1;
+}
+
+#redes {
+    background-color: #48b037;
+    text-align: center;
+    height: 70px;
+    margin-left: 0%;
+}
+
+#redes img {
+    width: 30px;
+    color: white;
+}
+
+table {
+    position: absolute;
+    margin-bottom: 50%;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    font-family: fontana-nd-ee-osf;
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+ul i {
+    color: #48b037;
+}
+
+/**********************Responsivo*****************************/
+
+@media screen and (max-width: 640px) {
+    /*******************Cambio de logo*********************/
+    .logo1 {
+        display: none;
+    }
+
+    /*********************** titulo principal************************/
+    #titulo h1 {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    #titulo h3 {
+        font-size: 25px;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    #titulo hr {
+        height: 5px;
+        border: none;
+        margin-right: 20px;
+    }
+
+    /****************************imagen ***********************/
+    .info img {
+        height: 300px;
+        width: 250px;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+    }
+
+    /****************Footer************************/
+    #footer {
+        width: 100%;
+        height: 50%;
+        background-color: rgb(51, 50, 50);
+        position: absolute;
+    }
+
+    /***********************Filtro************************/
+    #filtro {
+        height: 11rem;
+        width: 340px;
+    }
+
+    #filtro #buscar {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (min-width: 730px) {
+    .logo2 {
+        display: none;
+    }
+}
